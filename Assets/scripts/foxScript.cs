@@ -83,12 +83,12 @@ public class foxScript : MonoBehaviour
             }
 
             // saltar con espacio o flecha
-            if ((Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.UpArrow) && estaPisando))
+            if ((Input.GetKeyDown(KeyCode.UpArrow) && estaPisando))
             {
                 Saltar();
             }
             // salto por precion de teclas
-            if ((Input.GetKey(KeyCode.Space) || Input.GetKey(KeyCode.UpArrow)) && estaSaltando)
+            if (( Input.GetKey(KeyCode.UpArrow)) && estaSaltando)
             {
 
                 if (ContTimeSalto > 0)
@@ -102,7 +102,7 @@ public class foxScript : MonoBehaviour
                     estaSaltando = false;
                 }
             }
-            if (Input.GetKeyUp(KeyCode.Space) || Input.GetKeyUp(KeyCode.UpArrow))
+            if ( Input.GetKeyUp(KeyCode.UpArrow))
             {
                 estaSaltando = false;
             }
