@@ -1222,6 +1222,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2693578052341188424, guid: 9a5f1cb9666599648a9bb2db3d48002a,
         type: 3}
+      propertyPath: estatico
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2693578052341188424, guid: 9a5f1cb9666599648a9bb2db3d48002a,
+        type: 3}
       propertyPath: velocidad
       value: 2
       objectReference: {fileID: 0}
@@ -1299,6 +1304,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2693578052341188424, guid: 9a5f1cb9666599648a9bb2db3d48002a,
+        type: 3}
+      propertyPath: estatico
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2693578052341188424, guid: 9a5f1cb9666599648a9bb2db3d48002a,
         type: 3}
       propertyPath: velocidad
