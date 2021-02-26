@@ -10,6 +10,8 @@ TagManager:
   - jugadorPies
   - escaleras
   - limiteEscaleras
+  - vida
+  - sign
   layers:
   - Default
   - TransparentFX
@@ -22,7 +24,7 @@ TagManager:
   - suelo
   - jugador
   - enemigos
-  - 
+  - columna
   - 
   - 
   - 

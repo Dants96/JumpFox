@@ -34,6 +34,6 @@ public class HUBmanager : MonoBehaviour
 
     public void SumarPuntos(int puntos)
     {
-        this.puntos = puntos;
+        this.puntos += puntos;
     }
 }
