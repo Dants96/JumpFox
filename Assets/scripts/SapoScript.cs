@@ -37,8 +37,7 @@ public class SapoScript : MonoBehaviour
 
             Girar();
         }else if (collision.gameObject.CompareTag("jugador"))
-        {
-            Debug.Log("piso el sapo");
+        {          
             if (transform.position.y + 0.45f < collision.transform.position.y && collision.transform.position.x < transform.position.x + offsetX && collision.transform.position.x > transform.position.x - offsetX)
             {
                 velocidad = 0;

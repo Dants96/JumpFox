@@ -31,13 +31,27 @@ public class foxScript : MonoBehaviour
 
     [HideInInspector]
     public bool usandoEscaleras = false; //esta en las escalleras?
-    
+
+    // variables de hub
+    public HUBmanager _hubManager;
+    private int vidas;
+
 
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         velocidadCal = velocidad;
+        vidas = 3;
+        _hubManager = GameObject.Find("HUB").GetComponent<HUBmanager>();
+        if (_hubManager != null)
+        {
+            _hubManager.MostrarVidas(vidas);
+        }
+        else
+        {
+
+        }
     }
 
     // Update is called once per frame
