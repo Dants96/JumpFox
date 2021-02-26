@@ -60,7 +60,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: estaAplastada
+    m_ConditionEvent: estaAplastado
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -6356268059313663293}
@@ -85,7 +85,7 @@ AnimatorController:
   m_Name: abejaEnemigo
   serializedVersion: 5
   m_AnimatorParameters:
-  - m_Name: estaAplastada
+  - m_Name: estaAplastado
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
