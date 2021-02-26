@@ -833,7 +833,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 503832799}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 8.137916, y: -0.03391266, z: 1}
+  m_LocalPosition: {x: 8.137916, y: -0.03391266, z: 0.5}
   m_LocalScale: {x: 9.52796, y: 13.801723, z: 1}
   m_Children: []
   m_Father: {fileID: 477248449}
@@ -1222,6 +1222,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2693578052341188424, guid: 9a5f1cb9666599648a9bb2db3d48002a,
         type: 3}
+      propertyPath: estatico
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2693578052341188424, guid: 9a5f1cb9666599648a9bb2db3d48002a,
+        type: 3}
       propertyPath: velocidad
       value: 2
       objectReference: {fileID: 0}
@@ -1299,6 +1304,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2693578052341188424, guid: 9a5f1cb9666599648a9bb2db3d48002a,
+        type: 3}
+      propertyPath: estatico
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2693578052341188424, guid: 9a5f1cb9666599648a9bb2db3d48002a,
         type: 3}
       propertyPath: velocidad

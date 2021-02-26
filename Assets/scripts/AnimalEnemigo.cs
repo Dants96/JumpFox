@@ -13,6 +13,8 @@ public abstract class AnimalEnemigo : MonoBehaviour
 
     public GameObject jugador;
 
+    public bool estatico = false;
+
     // variables de hub
     public HUBmanager _hubManager;
 
@@ -20,10 +22,13 @@ public abstract class AnimalEnemigo : MonoBehaviour
 
     void Start()
     {
-        _hubManager = GameObject.Find("HUB").GetComponent<HUBmanager>();
-        jugador = GameObject.FindGameObjectWithTag("jugador");
-        CallinStar();
-
+        if (!estatico)
+        {
+            _hubManager = GameObject.Find("HUB").GetComponent<HUBmanager>();
+            jugador = GameObject.FindGameObjectWithTag("jugador");
+            CallinStar();
+        }
+       
     }
 
     // Update is called once per frame
@@ -49,7 +54,7 @@ public abstract class AnimalEnemigo : MonoBehaviour
 
             Girar();
         }
-        else if (collision.gameObject.CompareTag("jugador"))
+        else if (collision.gameObject.CompareTag("jugador") && !estatico)
         {
             if (transform.position.y + offsetY < collision.transform.position.y && collision.transform.position.x < transform.position.x + offsetX && collision.transform.position.x > transform.position.x - offsetX)
             {
