@@ -246,7 +246,7 @@ TextureImporter:
       213: 21300160
     second: cave-tileset_80
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 1
@@ -263,9 +263,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -276,7 +279,7 @@ TextureImporter:
     serializedVersion: 2
     filterMode: 0
     aniso: 16
-    mipBias: -100
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -297,10 +300,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -312,6 +320,20 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -2028,9 +2050,90 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      cave-tileset_0: 21300000
+      cave-tileset_1: 21300002
+      cave-tileset_10: 21300020
+      cave-tileset_11: 21300022
+      cave-tileset_12: 21300024
+      cave-tileset_13: 21300026
+      cave-tileset_14: 21300028
+      cave-tileset_15: 21300030
+      cave-tileset_16: 21300032
+      cave-tileset_17: 21300034
+      cave-tileset_18: 21300036
+      cave-tileset_19: 21300038
+      cave-tileset_2: 21300004
+      cave-tileset_20: 21300040
+      cave-tileset_21: 21300042
+      cave-tileset_22: 21300044
+      cave-tileset_23: 21300046
+      cave-tileset_24: 21300048
+      cave-tileset_25: 21300050
+      cave-tileset_26: 21300052
+      cave-tileset_27: 21300054
+      cave-tileset_28: 21300056
+      cave-tileset_29: 21300058
+      cave-tileset_3: 21300006
+      cave-tileset_30: 21300060
+      cave-tileset_31: 21300062
+      cave-tileset_32: 21300064
+      cave-tileset_33: 21300066
+      cave-tileset_34: 21300068
+      cave-tileset_35: 21300070
+      cave-tileset_36: 21300072
+      cave-tileset_37: 21300074
+      cave-tileset_38: 21300076
+      cave-tileset_39: 21300078
+      cave-tileset_4: 21300008
+      cave-tileset_40: 21300080
+      cave-tileset_41: 21300082
+      cave-tileset_42: 21300084
+      cave-tileset_43: 21300086
+      cave-tileset_44: 21300088
+      cave-tileset_45: 21300090
+      cave-tileset_46: 21300092
+      cave-tileset_47: 21300094
+      cave-tileset_48: 21300096
+      cave-tileset_49: 21300098
+      cave-tileset_5: 21300010
+      cave-tileset_50: 21300100
+      cave-tileset_51: 21300102
+      cave-tileset_52: 21300104
+      cave-tileset_53: 21300106
+      cave-tileset_54: 21300108
+      cave-tileset_55: 21300110
+      cave-tileset_56: 21300112
+      cave-tileset_57: 21300114
+      cave-tileset_58: 21300116
+      cave-tileset_59: 21300118
+      cave-tileset_6: 21300012
+      cave-tileset_60: 21300120
+      cave-tileset_61: 21300122
+      cave-tileset_62: 21300124
+      cave-tileset_63: 21300126
+      cave-tileset_64: 21300128
+      cave-tileset_65: 21300130
+      cave-tileset_66: 21300132
+      cave-tileset_67: 21300134
+      cave-tileset_68: 21300136
+      cave-tileset_69: 21300138
+      cave-tileset_7: 21300014
+      cave-tileset_70: 21300140
+      cave-tileset_71: 21300142
+      cave-tileset_72: 21300144
+      cave-tileset_73: 21300146
+      cave-tileset_74: 21300148
+      cave-tileset_75: 21300150
+      cave-tileset_76: 21300152
+      cave-tileset_77: 21300154
+      cave-tileset_78: 21300156
+      cave-tileset_79: 21300158
+      cave-tileset_8: 21300016
+      cave-tileset_80: 21300160
+      cave-tileset_9: 21300018
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

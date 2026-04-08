@@ -780,7 +780,7 @@ TextureImporter:
       213: 21300516
     second: tileset_258
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 1
@@ -797,9 +797,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -810,7 +813,7 @@ TextureImporter:
     serializedVersion: 2
     filterMode: 0
     aniso: 16
-    mipBias: -100
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -831,10 +834,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -846,6 +854,20 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -6300,9 +6322,268 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      tileset_0: 21300000
+      tileset_1: 21300002
+      tileset_10: 21300020
+      tileset_100: 21300200
+      tileset_101: 21300202
+      tileset_102: 21300204
+      tileset_103: 21300206
+      tileset_104: 21300208
+      tileset_105: 21300210
+      tileset_106: 21300212
+      tileset_107: 21300214
+      tileset_108: 21300216
+      tileset_109: 21300218
+      tileset_11: 21300022
+      tileset_110: 21300220
+      tileset_111: 21300222
+      tileset_112: 21300224
+      tileset_113: 21300226
+      tileset_114: 21300228
+      tileset_115: 21300230
+      tileset_116: 21300232
+      tileset_117: 21300234
+      tileset_118: 21300236
+      tileset_119: 21300238
+      tileset_12: 21300024
+      tileset_120: 21300240
+      tileset_121: 21300242
+      tileset_122: 21300244
+      tileset_123: 21300246
+      tileset_124: 21300248
+      tileset_125: 21300250
+      tileset_126: 21300252
+      tileset_127: 21300254
+      tileset_128: 21300256
+      tileset_129: 21300258
+      tileset_13: 21300026
+      tileset_130: 21300260
+      tileset_131: 21300262
+      tileset_132: 21300264
+      tileset_133: 21300266
+      tileset_134: 21300268
+      tileset_135: 21300270
+      tileset_136: 21300272
+      tileset_137: 21300274
+      tileset_138: 21300276
+      tileset_139: 21300278
+      tileset_14: 21300028
+      tileset_140: 21300280
+      tileset_141: 21300282
+      tileset_142: 21300284
+      tileset_143: 21300286
+      tileset_144: 21300288
+      tileset_145: 21300290
+      tileset_146: 21300292
+      tileset_147: 21300294
+      tileset_148: 21300296
+      tileset_149: 21300298
+      tileset_15: 21300030
+      tileset_150: 21300300
+      tileset_151: 21300302
+      tileset_152: 21300304
+      tileset_153: 21300306
+      tileset_154: 21300308
+      tileset_155: 21300310
+      tileset_156: 21300312
+      tileset_157: 21300314
+      tileset_158: 21300316
+      tileset_159: 21300318
+      tileset_16: 21300032
+      tileset_160: 21300320
+      tileset_161: 21300322
+      tileset_162: 21300324
+      tileset_163: 21300326
+      tileset_164: 21300328
+      tileset_165: 21300330
+      tileset_166: 21300332
+      tileset_167: 21300334
+      tileset_168: 21300336
+      tileset_169: 21300338
+      tileset_17: 21300034
+      tileset_170: 21300340
+      tileset_171: 21300342
+      tileset_172: 21300344
+      tileset_173: 21300346
+      tileset_174: 21300348
+      tileset_175: 21300350
+      tileset_176: 21300352
+      tileset_177: 21300354
+      tileset_178: 21300356
+      tileset_179: 21300358
+      tileset_18: 21300036
+      tileset_180: 21300360
+      tileset_181: 21300362
+      tileset_182: 21300364
+      tileset_183: 21300366
+      tileset_184: 21300368
+      tileset_185: 21300370
+      tileset_186: 21300372
+      tileset_187: 21300374
+      tileset_188: 21300376
+      tileset_189: 21300378
+      tileset_19: 21300038
+      tileset_190: 21300380
+      tileset_191: 21300382
+      tileset_192: 21300384
+      tileset_193: 21300386
+      tileset_194: 21300388
+      tileset_195: 21300390
+      tileset_196: 21300392
+      tileset_197: 21300394
+      tileset_198: 21300396
+      tileset_199: 21300398
+      tileset_2: 21300004
+      tileset_20: 21300040
+      tileset_200: 21300400
+      tileset_201: 21300402
+      tileset_202: 21300404
+      tileset_203: 21300406
+      tileset_204: 21300408
+      tileset_205: 21300410
+      tileset_206: 21300412
+      tileset_207: 21300414
+      tileset_208: 21300416
+      tileset_209: 21300418
+      tileset_21: 21300042
+      tileset_210: 21300420
+      tileset_211: 21300422
+      tileset_212: 21300424
+      tileset_213: 21300426
+      tileset_214: 21300428
+      tileset_215: 21300430
+      tileset_216: 21300432
+      tileset_217: 21300434
+      tileset_218: 21300436
+      tileset_219: 21300438
+      tileset_22: 21300044
+      tileset_220: 21300440
+      tileset_221: 21300442
+      tileset_222: 21300444
+      tileset_223: 21300446
+      tileset_224: 21300448
+      tileset_225: 21300450
+      tileset_226: 21300452
+      tileset_227: 21300454
+      tileset_228: 21300456
+      tileset_229: 21300458
+      tileset_23: 21300046
+      tileset_230: 21300460
+      tileset_231: 21300462
+      tileset_232: 21300464
+      tileset_233: 21300466
+      tileset_234: 21300468
+      tileset_235: 21300470
+      tileset_236: 21300472
+      tileset_237: 21300474
+      tileset_238: 21300476
+      tileset_239: 21300478
+      tileset_24: 21300048
+      tileset_240: 21300480
+      tileset_241: 21300482
+      tileset_242: 21300484
+      tileset_243: 21300486
+      tileset_244: 21300488
+      tileset_245: 21300490
+      tileset_246: 21300492
+      tileset_247: 21300494
+      tileset_248: 21300496
+      tileset_249: 21300498
+      tileset_25: 21300050
+      tileset_250: 21300500
+      tileset_251: 21300502
+      tileset_252: 21300504
+      tileset_253: 21300506
+      tileset_254: 21300508
+      tileset_255: 21300510
+      tileset_256: 21300512
+      tileset_257: 21300514
+      tileset_258: 21300516
+      tileset_26: 21300052
+      tileset_27: 21300054
+      tileset_28: 21300056
+      tileset_29: 21300058
+      tileset_3: 21300006
+      tileset_30: 21300060
+      tileset_31: 21300062
+      tileset_32: 21300064
+      tileset_33: 21300066
+      tileset_34: 21300068
+      tileset_35: 21300070
+      tileset_36: 21300072
+      tileset_37: 21300074
+      tileset_38: 21300076
+      tileset_39: 21300078
+      tileset_4: 21300008
+      tileset_40: 21300080
+      tileset_41: 21300082
+      tileset_42: 21300084
+      tileset_43: 21300086
+      tileset_44: 21300088
+      tileset_45: 21300090
+      tileset_46: 21300092
+      tileset_47: 21300094
+      tileset_48: 21300096
+      tileset_49: 21300098
+      tileset_5: 21300010
+      tileset_50: 21300100
+      tileset_51: 21300102
+      tileset_52: 21300104
+      tileset_53: 21300106
+      tileset_54: 21300108
+      tileset_55: 21300110
+      tileset_56: 21300112
+      tileset_57: 21300114
+      tileset_58: 21300116
+      tileset_59: 21300118
+      tileset_6: 21300012
+      tileset_60: 21300120
+      tileset_61: 21300122
+      tileset_62: 21300124
+      tileset_63: 21300126
+      tileset_64: 21300128
+      tileset_65: 21300130
+      tileset_66: 21300132
+      tileset_67: 21300134
+      tileset_68: 21300136
+      tileset_69: 21300138
+      tileset_7: 21300014
+      tileset_70: 21300140
+      tileset_71: 21300142
+      tileset_72: 21300144
+      tileset_73: 21300146
+      tileset_74: 21300148
+      tileset_75: 21300150
+      tileset_76: 21300152
+      tileset_77: 21300154
+      tileset_78: 21300156
+      tileset_79: 21300158
+      tileset_8: 21300016
+      tileset_80: 21300160
+      tileset_81: 21300162
+      tileset_82: 21300164
+      tileset_83: 21300166
+      tileset_84: 21300168
+      tileset_85: 21300170
+      tileset_86: 21300172
+      tileset_87: 21300174
+      tileset_88: 21300176
+      tileset_89: 21300178
+      tileset_9: 21300018
+      tileset_90: 21300180
+      tileset_91: 21300182
+      tileset_92: 21300184
+      tileset_93: 21300186
+      tileset_94: 21300188
+      tileset_95: 21300190
+      tileset_96: 21300192
+      tileset_97: 21300194
+      tileset_98: 21300196
+      tileset_99: 21300198
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

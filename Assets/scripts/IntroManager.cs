@@ -21,4 +21,10 @@ public class IntroManager : MonoBehaviour
     {
         SceneManager.LoadScene(indice);
     }
+
+    public void SalirJuego()
+    {
+        UnityEngine.Application.Quit();
+        UnityEngine.Debug.Log("Juego Cerrado");
+    }
 }
